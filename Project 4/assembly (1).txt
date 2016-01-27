@@ -1,0 +1,11 @@
+add R1,R2
+sub R2,#00004
+addc R10,#00001
+subc R2,#00001
+not R2,#00000
+and R1,R2
+or R2,R10
+shra R2,#00001
+rotr R2,#00010
+cpy R2,R1
+swap R2,R10
