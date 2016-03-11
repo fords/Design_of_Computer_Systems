@@ -1,0 +1,76 @@
+-- Memory File
+-- This is Test Program 1 for single core,
+-- non-pipelined dxpRISC521 test
+
+WIDTH = 14;
+DEPTH = 1024;
+
+ADDRESS_RADIX = HEX;	% Can be HEX, BIN or DEC %
+DATA_RADIX = HEX;	% Can be HEX, BIN or DEC %
+
+
+CONTENT BEGIN
+0	:	0420; % SUB R1, R0; R1 = 0 %
+1	:	0020; % ADD R1, R0; R1 = 0 %
+2	:	0843; % ADDC R2, #0x3; R2 = 0x3 %
+3	:	0842; % ADDC R2, #0x2; R2 = 0x5 %
+4	:	0062; % ADD R3, R2; R3 = 0x5 %
+5	:	1040; % NOT R2; R2 = 0x3FFA %
+6	:	1862; % OR R3, R2; R3 = 0x3FFF %
+7	:	1462; % AND R3, R2; R3 = R2 = 0x3FFA %
+8	:	1c61; % SHRA R3, #0x1; R3 = 0x3FFD %
+9	:	1440; % AND R2, R0 ;R1=0 % 
+A	:	0844; % ADDC R2 #4;R2=4 %
+B	:	0821; % ADDC R1 #1,R1=1 #0x1 %
+C	:	2041; % ROTR R2, #1 #0x1 %
+D	:	2041; % ROTR R2, #1 #0x1 %
+E	:	2484; % STORE R4 0x1 to #0x3002; Rj is R0 %
+F	:	0030; % STORE at 0x0032 %
+10	:	2800; % LOAD R0 from 0x0032  % 
+11	:	0032; % LOAD from 0x0032 %
+12	:	2c00; % JUMP Unconditional%
+13	:	0014; % JUMP TO 14 %
+14	:	086f; % ADDC R3 #0xF  %
+15	:	2c10; % JUMP IF C=1 %
+16	:	0018; %  %
+17	:	0;    %  %
+18	:	0861; %  ADDC R3 #1 %
+19	:	0422; %  SUB R1-R2=> R1=0 %
+1A	:	2c06; %  JUMP IF V=1 (V is not 1 in SR)%
+1B	:	001C; %  %
+1C	:	0; 
+1D	:	2c02; % JMP IF Z=1  %
+1E	:	001F; 
+1F  :   0084; %ADD R4 with R4    %
+20  :   3044; %COPY R2 from R4   %
+21  :   3424; %SWAP R1 with R4   %
+22  :   0081; %JMP IF N=1 %
+23  :   0000;
+24  :   0;    
+25  :   2c0E;%JMP IF C=0 %
+26  :   0026;
+27  :   0;  
+28  :   2c16; %JMP IF N=0 %
+29  :   2A ;
+2A  :   0; 
+2B  :   0; 
+2C  :   2c1A; %JMP IF V=0%
+2D  :   2E;
+2E  :   0;
+2F  :   0;
+30  :   2C1C; %JMP IF Z=0%
+31  :   35;
+32  :   0;
+33  :   2483; % store R3 to 4 location%
+34  :   0000;
+35  :   28A8; % load R3 value into R8%
+36  :   0004; 
+37  :   2404; %store R4%
+38  :   0008; %IW1%
+39  :   08C8; % add R6 with #8%
+40	:	0CC6; % subtract constant 6 from R6%
+41  :   28c0; % load reg6 MAB=0 load into Rj %
+42  :   0006; % load back into reg 0%
+[43..3FF]	:	0;
+
+END;
