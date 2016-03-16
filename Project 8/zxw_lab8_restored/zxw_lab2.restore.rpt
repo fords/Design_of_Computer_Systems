@@ -1,0 +1,110 @@
+Restore Archived Project report for zxw_lab2
+Sun Feb 11 11:22:57 2018
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Feb 11 11:22:57 2018 ;
+; Revision Name                   ; zxw_lab2                              ;
+; Top-level Entity Name           ; zxw_CAM_v                             ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/z/Documents/GitHub/Design_of_Computer_Systems/Project 8/zxw_lab8.qar' into the 'C:/Users/z/Documents/GitHub/Design_of_Computer_Systems/Project 8/zxw_lab8_restored/' directory
+Info: Generated report 'zxw_lab2.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera_lite/16.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 726 megabytes
+    Info: Processing ended: Sun Feb 11 11:22:57 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------+
+; Files Restored                   ;
++----------------------------------+
+; File Name                        ;
++----------------------------------+
+; qar_info.json                    ;
+; Block2.bdf                       ;
+; assignment_defaults.qdf          ;
+; zxw_CAM_v.v                      ;
+; zxw_addsub.bsf                   ;
+; zxw_addsub.qip                   ;
+; zxw_addsub.v                     ;
+; zxw_addsub_bb.v                  ;
+; zxw_lab2.qpf                     ;
+; zxw_lab2.qsf                     ;
+; zxw_lab2_assignment_defaults.qdf ;
+; zxw_ram.bsf                      ;
+; zxw_ram.qip                      ;
+; zxw_ram.v                        ;
+; zxw_ram_bb.v                     ;
+; zxw_rom.bsf                      ;
+; zxw_rom.qip                      ;
+; zxw_rom.v                        ;
+; zxw_rom_bb.v                     ;
+; zxw_rotate.bsf                   ;
+; zxw_rotate.qip                   ;
+; zxw_rotate.v                     ;
+; zxw_rotate1.bsf                  ;
+; zxw_rotate1.qip                  ;
+; zxw_rotate1.v                    ;
+; zxw_rotate1_bb.v                 ;
+; zxw_rotate_bb.v                  ;
+; zxw_shift.bsf                    ;
+; zxw_shift.qip                    ;
+; zxw_shift.v                      ;
+; zxw_shift1.bsf                   ;
+; zxw_shift1.qip                   ;
+; zxw_shift1.v                     ;
+; zxw_shift1_bb.v                  ;
+; zxw_shift_bb.v                   ;
+; zxw_tb.v                         ;
++----------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
